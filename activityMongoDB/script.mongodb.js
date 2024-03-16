@@ -1,4 +1,5 @@
-db.base_datos_empleados.deleteMany({});
+// db.base_datos_empleados.deleteMany({});
+
 // Get employees with age greater than 18
 db.base_datos_empleados.find({edad: {$gt: 18}})
 
@@ -15,6 +16,16 @@ db.base_datos_empleados.find({
     ]
 })
 
+db.base_datos_empleados.findOne({
+  $and: 
+    [
+      {salario: {$gt: 2000}},
+      {edad: {$lte: 30}}
+    ]
+}, {
+  salario: 1,
+  edad: 1
+})
 // Get users who live in spain and have a salary greather 3000/mount
 db.base_datos_empleados.find({
   $and: 
