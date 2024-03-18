@@ -103,7 +103,50 @@ db.base_datos_empleados.updateMany(
   {$set: {ciudad: "Medellin"}}
   )
 
+// Cambiar el país de residencia de los usuarios con un salario superior a 5000 dólares a "Australia".
+db.base_datos_empleados.updateMany(
+  {salario: {$gt: 5000}},
+  {$set: {pais: "Australia"}}
+  )
+
+// Reducir la edad de todos los usuarios que tienen más de 50 años en 5 años.
+db.base_datos_empleados.updateMany(
+  {edad: {$gt: 50}},
+  {$inc: {edad: -5}} 
+  )
+
+// Actualizar el peso de los usuarios que pesan más de 180 libras a 160 libras.
+db.base_datos_empleados.updateMany(
+  {peso: {$gte: 180}},
+  {$set: {peso: 160}}
+  )
+
+// Incrementar el salario de los usuarios que viven en "London" en un 25%.
+db.base_datos_empleados.updateMany(
+  {ciudad: {$eq: "London"}},
+  {$mul: {salario: 1.25}},
+  )
+
+// Cambiar el apellido de los usuarios con un salario superior a 4000 dólares a "Smith".
+db.base_datos_empleados.updateMany(
+  {salario: {$gt: 40000}},
+  {$set: {apellidos: "Smith"}}
+  )
+
+// Actualizar el correo electrónico de todos los usuarios cuyo nombre empiece por "A" a "nuevo@riwi.io".
+db.base_datos_empleados.updateMany(
+  {nombres: {$regex: /^a/gi}},
+  {$set: {correo: "nuevo@riwi.io"}}
+  )
+
+// Cambiar la ciudad de residencia de los usuarios con una altura inferior a 160 centímetros a "París".
+db.base_datos_empleados.updateMany(
+  {altura: {$lt: 160}},
+  {$set: {ciudad: "Paris"}}
+  )
+
 // PARA LAS PRUEBAS
 db.base_datos_empleados.find(
-  {ciudad: {$regex: /bogota/ig}},
+  {salario: {$lt: 2000}}
   )
+

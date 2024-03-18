@@ -59,7 +59,7 @@ db.base_datos_empleados.insertMany(
   {
     "nombres": "David",
     "apellidos": "Gonzalez",
-    "correo": "david.gonzalez@example.com",
+    "correo": "spam.gonzalez@example.com",
     "ciudad": "Santiago",
     "pais": "Chile",
     "salario": 42000,
@@ -103,7 +103,7 @@ db.base_datos_empleados.insertMany(
   {
     "nombres": "Sarah",
     "apellidos": "Wilson",
-    "correo": "sarah.wilson@example.com",
+    "correo": "sarah.spam@example.com",
     "ciudad": "Toronto",
     "pais": "Canada",
     "salario": 41000,
@@ -180,7 +180,7 @@ db.base_datos_empleados.insertMany(
   {
     "nombres": "Lucas",
     "apellidos": "Fernandez",
-    "correo": "lucas.fernandez@example.com",
+    "correo": "lucas.fernandez@spam.com",
     "ciudad": "Buenos Aires",
     "pais": "Argentina",
     "salario": 40000,
@@ -213,7 +213,7 @@ db.base_datos_empleados.insertMany(
   {
     "nombres": "Lukas",
     "apellidos": "Schmidt",
-    "correo": "lukas.schmidt@example.com",
+    "correo": "lukas.spam@example.com",
     "ciudad": "Berlin",
     "pais": "Germany",
     "salario": 43000,
@@ -268,7 +268,7 @@ db.base_datos_empleados.insertMany(
   {
     "nombres": "Laura",
     "apellidos": "Martínez",
-    "correo": "laura.martinez@example.com",
+    "correo": "laura.martinez@example.spam",
     "ciudad": "Barcelona",
     "pais": "Spain",
     "salario": 37000,
@@ -887,7 +887,7 @@ db.base_datos_empleados.insertMany(
     "correo": "lena.schulz@example.com",
     "ciudad": "Berlin",
     "pais": "Germany",
-    "salario": 39000,
+    "salario": 0,
     "edad": 30,
     "altura": 180,
     "peso": 175
@@ -929,7 +929,7 @@ db.base_datos_empleados.insertMany(
     "nombres": "Hannah",
     "apellidos": "Andersen",
     "correo": "hannah.andersen@example.com",
-    "ciudad": "Copenhagen",
+    "ciudad": "Bello",
     "pais": "Denmark",
     "salario": 43000,
     "edad": 32,
@@ -975,7 +975,7 @@ db.base_datos_empleados.insertMany(
     "correo": "freja.jensen@example.com",
     "ciudad": "Copenhagen",
     "pais": "Denmark",
-    "salario": 43000,
+    "salario": 0,
     "edad": 32,
     "altura": 163,
     "peso": 125
@@ -1074,7 +1074,7 @@ db.base_datos_empleados.insertMany(
     "correo": "felix.lehmann@example.com",
     "ciudad": "Berlin",
     "pais": "Germany",
-    "salario": 39000,
+    "salario": 0,
     "edad": 30,
     "altura": 180,
     "peso": 175
@@ -1140,7 +1140,7 @@ db.base_datos_empleados.insertMany(
     "correo": "marcos.martinez@example.com",
     "ciudad": "Madrid",
     "pais": "Spain",
-    "salario": 38000,
+    "salario": 0,
     "edad": 32,
     "altura": 175,
     "peso": 170
@@ -1151,7 +1151,7 @@ db.base_datos_empleados.insertMany(
     "correo": "sophie.larsen@example.com",
     "ciudad": "Copenhagen",
     "pais": "Denmark",
-    "salario": 43000,
+    "salario": 0,
     "edad": 32,
     "altura": 163,
     "peso": 125
@@ -2325,7 +2325,6 @@ db.base_datos_empleados.insertMany(
   {
     "nombres": "Saachi",
     "apellidos": "Patel",
-    "correo": "saachi.patel@example.com",
     "ciudad": "Delhi",
     "pais": "India",
     "salario": 2800,
@@ -2358,7 +2357,6 @@ db.base_datos_empleados.insertMany(
   {
     "nombres": "Reyansh",
     "apellidos": "Gupta",
-    "correo": "reyansh.gupta@example.com",
     "ciudad": "Bangalore",
     "pais": "India",
     "salario": 3000,
@@ -2391,7 +2389,6 @@ db.base_datos_empleados.insertMany(
   {
     "nombres": "Ishaan",
     "apellidos": "Sinha",
-    "correo": "ishaan.sinha@example.com",
     "ciudad": "Jaipur",
     "pais": "India",
     "salario": 2900,
@@ -2413,7 +2410,6 @@ db.base_datos_empleados.insertMany(
   {
     "nombres": "Vihaan",
     "apellidos": "Shah",
-    "correo": "vihaan.shah@example.com",
     "ciudad": "Surat",
     "pais": "India",
     "salario": 2800,
@@ -2457,7 +2453,6 @@ db.base_datos_empleados.insertMany(
   {
     "nombres": "Yuvraj",
     "apellidos": "Mehta",
-    "correo": "yuvraj.mehta@example.com",
     "ciudad": "Vadodara",
     "pais": "India",
     "salario": 2900,
@@ -2733,7 +2728,7 @@ db.base_datos_empleados.insertMany(
     "nombres": "Aarav",
     "apellidos": "Choudhury",
     "correo": "nuevo_correo@riwi.io",
-    "ciudad": "Ahmedabad",
+    "ciudad": "Bello",
     "pais": "India",
     "salario": 2900,
     "edad": 12,
@@ -2794,6 +2789,292 @@ db.base_datos_empleados.insertMany(
     "edad": 7,
     "altura": 115,
     "peso": 55
+  },
+  {
+    "nombres": "Ravi",
+    "apellidos": "Kumar",
+    "correo": "ejemplo@riwi.io",
+    "ciudad": "Mumbai",
+    "pais": "India",
+    "salario": 4000,
+    "edad": 65,
+    "altura": 170,
+    "peso": 160
+  },
+  {
+  "nombres": "Meera",
+  "apellidos": "Sharma",
+  "correo": "borrar@riwi.io",
+  "ciudad": "Bello",
+  "pais": "India",
+  "salario": 4200,
+  "edad": 70,
+  "altura": 155,
+  "peso": 150
+  },
+  {
+  "nombres": "Amit",
+  "apellidos": "Patel",
+  "correo": "ejemplo@riwi.io",
+  "ciudad": "Bangalore",
+  "pais": "India",
+  "salario": 3800,
+  "edad": 65,
+  "altura": 165,
+  "peso": 155
+  },
+  {
+  "nombres": "Lata",
+  "apellidos": "Gupta",
+  "correo": "borrar@riwi.io",
+  "ciudad": "Hyderabad",
+  "pais": "India",
+  "salario": 4200,
+  "edad": 70,
+  "altura": 160,
+  "peso": 140
+  },
+  {
+  "nombres": "Raj",
+  "apellidos": "Singh",
+  "correo": "ejemplo@riwi.io",
+  "ciudad": "Chennai",
+  "pais": "India",
+  "salario": 4000,
+  "edad": 65,
+  "altura": 175,
+  "peso": 165
+  },
+  {
+  "nombres": "Priya",
+  "apellidos": "Shah",
+  "correo": "borrar@riwi.io",
+  "ciudad": "Bello",
+  "pais": "India",
+  "salario": 4300,
+  "edad": 70,
+  "altura": 158,
+  "peso": 145
+  },
+  {
+  "nombres": "Sanjay",
+  "apellidos": "Verma",
+  "correo": "ejemplo@riwi.io",
+  "ciudad": "Pune",
+  "pais": "India",
+  "salario": 3800,
+  "edad": 65,
+  "altura": 170,
+  "peso": 160
+  },
+  {
+  "nombres": "Rita",
+  "apellidos": "Naidu",
+  "correo": "borrar@riwi.io",
+  "ciudad": "Ahmedabad",
+  "pais": "India",
+  "salario": 4200,
+  "edad": 70,
+  "altura": 165,
+  "peso": 150
+  },
+  {
+  "nombres": "Arun",
+  "apellidos": "Iyer",
+  "correo": "ejemplo@riwi.io",
+  "ciudad": "Jaipur",
+  "pais": "India",
+  "salario": 4100,
+  "edad": 65,
+  "altura": 168,
+  "peso": 155
+  },
+  {
+  "nombres": "Sunita",
+  "apellidos": "Menon",
+  "correo": "borrar@riwi.io",
+  "ciudad": "Lucknow",
+  "pais": "India",
+  "salario": 4400,
+  "edad": 70,
+  "altura": 162,
+  "peso": 140
+  },
+  {
+  "nombres": "Deepak",
+  "apellidos": "Rajput",
+  "correo": "ejemplo@riwi.io",
+  "ciudad": "Surat",
+  "pais": "India",
+  "salario": 3900,
+  "edad": 65,
+  "altura": 173,
+  "peso": 165
+  },
+  {
+  "nombres": "Asha",
+  "apellidos": "Kulkarni",
+  "correo": "borrar@riwi.io",
+  "ciudad": "Nagpur",
+  "pais": "India",
+  "salario": 4300,
+  "edad": 70,
+  "altura": 166,
+  "peso": 155
+  },
+  {
+  "nombres": "Vikram",
+  "apellidos": "Joshi",
+  "correo": "ejemplo@riwi.io",
+  "ciudad": "Indore",
+  "pais": "India",
+  "salario": 4200,
+  "edad": 65,
+  "altura": 176,
+  "peso": 160
+  },
+  {
+  "nombres": "Takashi",
+  "apellidos": "Sato",
+  "correo": "ejemplo@riwi.io",
+  "ciudad": "Tokyo",
+  "pais": "Japón",
+  "salario": 4500,
+  "edad": 65,
+  "altura": 170,
+  "peso": 160
+  },
+  {
+  "nombres": "Yuko",
+  "apellidos": "Tanaka",
+  "correo": "borrar@riwi.io",
+  "ciudad": "Osaka",
+  "pais": "Japón",
+  "salario": 4700,
+  "edad": 70,
+  "altura": 165,
+  "peso": 150
+  },
+  {
+  "nombres": "Hiroshi",
+  "apellidos": "Suzuki",
+  "correo": "ejemplo@riwi.io",
+  "ciudad": "Nagoya",
+  "pais": "Japón",
+  "salario": 4300,
+  "edad": 65,
+  "altura": 175,
+  "peso": 155
+  },
+  {
+  "nombres": "Sakura",
+  "apellidos": "Kobayashi",
+  "correo": "borrar@riwi.io",
+  "ciudad": "Sapporo",
+  "pais": "Japón",
+  "salario": 4700,
+  "edad": 70,
+  "altura": 160,
+  "peso": 140
+  },
+  {
+  "nombres": "Daichi",
+  "apellidos": "Yamamoto",
+  "correo": "ejemplo@riwi.io",
+  "ciudad": "Fukuoka",
+  "pais": "Japón",
+  "salario": 4500,
+  "edad": 65,
+  "altura": 180,
+  "peso": 165
+  },
+  {
+  "nombres": "Nao",
+  "apellidos": "Nakamura",
+  "correo": "borrar@riwi.io",
+  "ciudad": "Kobe",
+  "pais": "Japón",
+  "salario": 4800,
+  "edad": 70,
+  "altura": 158,
+  "peso": 145
+  },
+  {
+  "nombres": "Hikaru",
+  "apellidos": "Matsui",
+  "correo": "ejemplo@riwi.io",
+  "ciudad": "Kyoto",
+  "pais": "Japón",
+  "salario": 4300,
+  "edad": 65,
+  "altura": 170,
+  "peso": 160
+  },
+  {
+  "nombres": "Noboru",
+  "apellidos": "Kato",
+  "correo": "borrar@riwi.io",
+  "ciudad": "Hiroshima",
+  "pais": "Japón",
+  "salario": 4700,
+  "edad": 70,
+  "altura": 165,
+  "peso": 150
+  },
+  {
+  "nombres": "Kyoko",
+  "apellidos": "Sasaki",
+  "correo": "ejemplo@riwi.io",
+  "ciudad": "Sendai",
+  "pais": "Japón",
+  "salario": 4600,
+  "edad": 65,
+  "altura": 175,
+  "peso": 155
+  },
+  {
+  "nombres": "Tetsuya",
+  "apellidos": "Ito",
+  "correo": "borrar@riwi.io",
+  "ciudad": "Chiba",
+  "pais": "Japón",
+  "salario": 4900,
+  "edad": 70,
+  "altura": 160,
+  "peso": 140
+  },
+  {
+  "nombres": "Aiko",
+  "apellidos": "Takahashi",
+  "correo": "ejemplo@riwi.io",
+  "ciudad": "Yokohama",
+  "pais": "Japón",
+  "salario": 4400,
+  "edad": 65,
+  "altura": 180,
+  "peso": 165
+  },
+  {
+  "nombres": "Shinji",
+  "apellidos": "Saito",
+  "correo": "borrar@riwi.io",
+  "ciudad": "Kawasaki",
+  "pais": "Japón",
+  "salario": 4800,
+  "edad": 70,
+  "altura": 158,
+  "peso": 145
+  },
+  {
+  "nombres": "Mayumi",
+  "apellidos": "Watanabe",
+  "correo": "ejemplo@riwi.io",
+  "ciudad": "Tokyo",
+  "pais": "Japón",
+  "salario": 4500,
+  "edad": 65,
+  "altura": 170,
+  "peso": 160
   },
 ]
 )
